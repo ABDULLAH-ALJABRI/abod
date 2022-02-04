@@ -1,0 +1,179 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(task.png);
+  /* height: 700vh; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2000px;
+  background-position: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 30px;
+  color: wheat;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+.task {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 1rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #b39c6d;
+  opacity: 0.7;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 4px solid whitesmoke;
+}
+
+.task p {
+  font-size: 1.5rem;
+  color: white;
+  opacity: 1;
+  font-family: fantasy;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.divicon,
+.icon-star-full {
+  position: relative;
+  top: 5px;
+  font-size: 25px;
+}
+
+.icon-bin {
+  margin-right: 5px;
+}
+
+.icon-bin:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  font-size: 27px;
+}
+
+.icon-star-full:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.icon-angry:hover {
+  color: rgb(243, 188, 87);
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2;
+  -webkit-transition: 0.2;
+  -moz-transition: 0.2;
+  -ms-transition: 0.2;
+  -o-transition: 0.2;
+}
+
+.box-what {
+  text-align: center;
+  margin-top: 68px;
+
+
+}
+
+input {
+  background-color: rgb(209, 208, 208);
+
+
+}
+
+.box-what p {
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.box-what input {
+  margin-top: 30px;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 6rem;
+  padding: 10px;
+  text-align: center;
+}
+
+button {all: unset;}
+
+.icon-upload {
+  font-size: 40px;
+  margin-left: 40px;
+  position: relative;
+  top: 10px;
+  color: snow;
+}
+
+
+
+.icon-upload:hover {
+  color: #428d4e;
+  cursor: pointer;
+
+}
+
+form input {
+  border-radius: 5px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 200px;
+
+}
+
+/* for javascript                  */
+
+.dsnone{
+
+  display: none;
+
+}
+
+.icon-heart{
+  color: red;
+}
+
+.line-text{
+  text-decoration: line-through;
+}
+
+.disline{
+  text-decoration: none;
+}
+
+.star-up{
+
+  color: rgb(253, 253, 40);
+
+}
